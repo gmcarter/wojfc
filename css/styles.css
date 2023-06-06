@@ -1,0 +1,143 @@
+body{
+    background-image: url(/images/black-background-6921370_960_720.jpg);
+}
+
+.navbar {
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    height: 75px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 30%;
+    width: 30%;
+    padding-bottom: 5px;
+}
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+
+.navbar-custom {
+    color: #000000;
+    background-color: rgb(235, 232, 232);
+    font-size: 16px;
+}
+
+.container-fluid {
+    margin-top: 5px;
+}
+
+.intro {
+    background-image: url(/images/stadium.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto 0 auto;
+    margin-top: 75px;
+    width: 95%;
+}
+
+.intro-paragraph{
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.intro-box {
+    padding: 0 0 50px 0;
+}
+
+.wojfc-title{
+    color: rgb(25,84,126);
+    font-size: 7.5rem;
+    text-align: center;
+    padding: 0 0 10px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.wojfc-welcome{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px 0 0 0;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Team Section */
+.team-logos{
+    background-image: url(/images/amerian-football-field-color2.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    width: 95%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-top {
+    padding-top: 30px;
+}
+
+.row-bottom {
+    padding-bottom: 40px;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+/* Information */
+
+.info {
+    background-image: url(/images/player-mixed.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto 0 auto;
+    color: #fff;
+    width: 95%;
+}
+
+.wojf-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    padding: 0 0 30px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.spacing {
+    height: 30px;
+}
+
+.info-text:hover {
+    text-shadow: 3px 3px 5px RGB(130,87,54);
+    transform: scale(1.5);
+}
+
+/* About */
+
+.about {
+    width: 96%;
+}
+
+#about-right {
+    background-color: red;
+}
+
+
