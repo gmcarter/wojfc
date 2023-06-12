@@ -86,11 +86,9 @@ body{
 
 /* Team Section */
 .team-row {
-    display: flex;
-    align-content: space-evenly;
-    gap: 100px;
     padding: 10px 0 25px;
 }
+
 
 .team-logos{
     background-image: url(/images/amerian-football-field-color2.jpg);
@@ -150,7 +148,6 @@ body{
 }
 
 /* About */
-
 .about {
     width: 95%;
     margin: 5px auto 0 auto;
@@ -184,3 +181,16 @@ body{
     font-weight: bold;
     line-height: normal;    
 }
+
+@media screen and (max-width: 1280px) {
+    .quote {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .quote {
+        font-size: 1.7rem;
+    }
+}
+
