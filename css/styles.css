@@ -85,17 +85,13 @@ body{
 }
 
 /* Team Section */
-.team-row {
-    padding: 10px 0 25px;
-}
-
-
 .team-logos{
     background-image: url(/images/amerian-football-field-color2.jpg);
     background-size: 100% 100%;
     margin: 5px auto 0 auto;
     height: 100%;
     width: 95%;
+    padding: 25px 0 35px 0;
 }
 
 .row {
