@@ -188,5 +188,8 @@ body{
     .quote {
         font-size: 1.7rem;
     }
+    .navbar-label {
+        display: none;
+    }
 }
 
