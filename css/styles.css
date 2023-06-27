@@ -11,13 +11,8 @@ body{
     --navbar-background-color: rgb(235, 232, 232);
 }
 
-.navbar {
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    overflow: hidden;
-    height: 75px;
+#nav {
+    z-index: 9999;
 }
 
 .navbar-brand {
@@ -50,7 +45,7 @@ body{
     background-image: url(/images/stadium.jpg);
     background-size: 100% 100%;
     margin: 0 auto 0 auto;
-    margin-top: 75px;
+    
     width: 95%;
 }
 
