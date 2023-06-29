@@ -1,7 +1,15 @@
 body{
     background-image: url(/images/black-background.jpg);
-    
 }
+
+htmL {
+    scroll-behavior: smooth;
+}
+
+#teams-section, #info-section  {
+    scroll-margin-top: 90px;
+}
+
 
 :root {
     --navbar-text-color: #000000;
@@ -13,6 +21,10 @@ body{
 
 #nav {
     z-index: 9999;
+}
+
+.navbar {
+    margin-bottom: 80px;
 }
 
 .navbar-brand {
@@ -37,15 +49,13 @@ body{
     font-size: 16px;
 }
 
-.container-fluid {
-    margin-top: 5px;
-}
+/* Introduction */
 
 .intro {
     background-image: url(/images/stadium.jpg);
     background-size: 100% 100%;
     margin: 0 auto 0 auto;
-    padding-top: 80px;
+    padding-top: 75px;
     width: 95%;
 }
 
@@ -80,6 +90,8 @@ body{
 }
 
 /* Team Section */
+
+
 .team-logos{
     background-image: url(/images/amerian-football-field-color2.jpg);
     background-size: 100% 100%;
