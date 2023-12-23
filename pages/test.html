@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Div Table with Menu Tabs</title>
+  <style>
+    /* CSS for the div table */
+    .table {
+      display: table;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .row {
+      display: table-row;
+    }
+    .cell {
+      display: table-cell;
+      border: 1px solid #000;
+      padding: 8px;
+    }
+    
+    /* CSS for menu tabs */
+    .tab {
+      display: inline-block;
+      margin-right: 10px;
+      cursor: pointer;
+      padding: 8px 16px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 5px 5px 0 0;
+    }
+    .tab:hover {
+      background-color: #ddd;
+    }
+    .tab-content {
+      display: none;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-top: none;
+    }
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2,
+    #tab3:checked ~ #content3 {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu">
+    <label for="tab1" class="tab">Tab 1</label>
+    <label for="tab2" class="tab">Tab 2</label>
+    <label for="tab3" class="tab">Tab 3</label>
+  </div>
+
+  <div class="table">
+    <input type="radio" name="tabs" id="tab1" checked>
+    <input type="radio" name="tabs" id="tab2">
+    <input type="radio" name="tabs" id="tab3">
+    
+    <div class="row tab-content" id="content1">
+      <div class="cell">Tab 1 Content</div>
+      <div class="cell">Tab 1 Content</div>
+      <div class="cell">Tab 1 Content</div>
+    </div>
+    <div class="row tab-content" id="content2">
+      <div class="cell">Tab 2 Content</div>
+      <div class="cell">Tab 2 Content</div>
+      <div class="cell">Tab 2 Content</div>
+    </div>
+    <div class="row tab-content" id="content3">
+      <div class="cell">Tab 3 Content</div>
+      <div class="cell">Tab 3 Content</div>
+      <div class="cell">Tab 3 Content</div>
+    </div>
+  </div>
+
+</body>
+</html>
