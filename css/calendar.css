@@ -1,0 +1,164 @@
+body{
+    background-image: url(/images/black-background.jpg);
+}
+
+htmL {
+    scroll-behavior: smooth;
+}
+
+#teams-section, #info-section  {
+    scroll-margin-top: 90px;
+}
+
+
+:root {
+    --navbar-text-color: #000000;
+    --intro-background-color: rgba(255, 255, 255, 0.75);
+    --text-shadow-color: rgb(130,87,54);
+    --about-background-color: red;
+    --navbar-background-color: rgb(235, 232, 232);
+}
+
+#nav {
+    z-index: 9999;
+}
+
+.navbar {
+    margin-bottom: 80px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand>img {
+    height: 12%;
+    width: 12%;
+    padding-bottom: 5px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-custom {
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-background-color);
+    font-size: 16px;
+}
+
+/* Calendar Section */
+
+.calendar {
+    background-color: grey !important;
+    background-size: 100% 100%;
+    margin: 0 auto 0 auto;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    width: 95%;
+}
+
+.tab-content {
+    color: white !important;
+}
+
+
+.nav-tabs .nav-item .nav-link {
+    background-color: white;
+    color: grey;
+  }
+
+.nav-tabs .nav-item .nav-link.active {
+    color: red !important;
+    font-weight: bold;
+  }
+
+ .text-center {
+    text-align: center !important;
+ }
+
+.teams-on-bye {
+    width: 25%;
+}
+
+/* About */
+.about {
+    width: 95%;
+    margin: 5px auto 0 auto;
+}
+
+.about-left {
+    width: 50%;
+    height: 550px;
+    background-image: url(/images/football_and_players.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+}
+
+.about-right {
+    width: 50%;
+    height: 550px;
+    background-color: var(--about-background-color);
+    display: inline-block;
+}
+
+.quote {
+    color: white;
+    text-align: right;
+    padding-top: 6%;
+    padding-right: 10%;
+    font-size: 3rem;
+    font-family: 'Nanum Pen Script', cursive;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    line-height: normal;    
+}
+
+.about-team {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.5rem;
+    margin: 13%;
+}
+
+/* Footer */
+
+.footer {
+    width: 95%;
+    height: 75px;
+    background-color: #000000;
+    margin: 5px auto 0 auto;
+}
+
+.footer-info {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .quote {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .quote {
+        font-size: 1.7rem;
+    }
+    .navbar-label {
+        display: none;
+    }
+    .about-team {
+        font-size: 1rem;
+        
+    }
+}
+

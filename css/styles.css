@@ -229,3 +229,17 @@ htmL {
     }
 }
 
+/* Calendar Section */
+
+.calendar {
+    background-color: grey !important;
+    background-size: 100% 100%;
+    margin: 0 auto 0 auto;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    width: 95%;
+}
+
+.cal-font{
+    color: white !important;
+}
