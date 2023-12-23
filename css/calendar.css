@@ -92,6 +92,10 @@ htmL {
     border: none;
 }
 
+p.weekly {
+    padding-bottom: 25px !important;
+}
+
 /* About */
 .about {
     width: 95%;
