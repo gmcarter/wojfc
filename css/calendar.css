@@ -67,7 +67,7 @@ htmL {
 
 .nav-tabs .nav-item .nav-link {
     background-color: white;
-    color: grey;
+    color: black !important;
   }
 
 .nav-tabs .nav-item .nav-link.active {
@@ -94,6 +94,11 @@ htmL {
 
 p.weekly {
     padding-bottom: 25px !important;
+}
+
+.th {
+    background-color: white !important;
+    color: black !important;
 }
 
 /* About */
