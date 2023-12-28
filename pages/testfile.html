@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Image with Text at Bottom</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .image-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%; /* Adjust as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    .text-at-bottom {
+      position: absolute;
+      bottom: -25px; /* Adjust vertical position */
+      left: 0;
+      right: 0;
+      color: black; /* Change text color */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <div class="image-container">
+        <img src="/images/Wayne.png" alt="Sample Image">
+        <div class="text-at-bottom">
+          <h3>Your Text Here</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

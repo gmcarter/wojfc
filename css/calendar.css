@@ -101,6 +101,16 @@ p.weekly {
     color: black !important;
 }
 
+.address {
+    color: white !important;
+    text-decoration: none !important;
+    target="_blank";
+}
+
+.address:hover {
+    text-decoration: underline!important;
+}
+
 /* About */
 .about {
     width: 95%;
