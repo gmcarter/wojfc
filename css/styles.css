@@ -194,7 +194,7 @@ htmL {
 .quote {
     color: white;
     text-align: right;
-    padding-top: 6%;
+    padding-top: 20px;
     padding-right: 10%;
     font-size: 3rem;
     font-family: 'Nanum Pen Script', cursive;
@@ -205,11 +205,11 @@ htmL {
 
 .about-team {
     text-align: center;
-    vertical-align: middle;
     color: white;
     font-family: 'Recursive', sans-serif;
     font-size: 1.5rem;
-    margin: 13%;
+    
+    
 }
 
 /* Footer */
@@ -231,7 +231,16 @@ htmL {
 @media screen and (max-width: 1280px) {
     .quote {
         font-size: 2.5rem;
+        
     }
+}
+
+@media screen and (min-width: 1920px) {
+    .about-team {
+        padding: 3%;
+        
+    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -243,6 +252,7 @@ htmL {
     }
     .about-team {
         font-size: 1rem;
+        padding: 10%;
         
     }
 }
